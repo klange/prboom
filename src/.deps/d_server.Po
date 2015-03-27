@@ -1,0 +1,115 @@
+d_server.o: d_server.c ../config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/newlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/features.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/alloca.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/time.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/time.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/fcntl.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/fcntl.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_default_fcntl.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stat.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/signal.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/signal.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/signal_defs.h \
+ doomtype.h protocol.h d_ticcmd.h m_swap.h i_network.h m_fixed.h \
+ i_system.h
+
+../config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/newlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/features.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/alloca.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/time.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/time.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/fcntl.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/fcntl.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_default_fcntl.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stat.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/signal.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/signal.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/signal_defs.h:
+
+doomtype.h:
+
+protocol.h:
+
+d_ticcmd.h:
+
+m_swap.h:
+
+i_network.h:
+
+m_fixed.h:
+
+i_system.h:

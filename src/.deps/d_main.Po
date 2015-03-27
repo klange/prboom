@@ -1,0 +1,209 @@
+d_main.o: d_main.c /home/klange/Projects/toaruos/hdd/usr/include/unistd.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/unistd.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/newlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/features.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stat.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/time.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/time.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/fcntl.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/fcntl.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_default_fcntl.h \
+ doomdef.h ../config.h z_zone.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdio.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/alloca.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/assert.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/ctype.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h \
+ m_swap.h version.h doomtype.h doomstat.h d_player.h d_items.h p_pspr.h \
+ m_fixed.h tables.h info.h d_think.h p_mobj.h doomdata.h d_ticcmd.h \
+ d_net.h dstrings.h d_englsh.h sounds.h w_wad.h s_sound.h v_video.h \
+ r_data.h r_defs.h r_state.h r_patch.h f_finale.h d_event.h f_wipe.h \
+ m_argv.h m_misc.h m_menu.h p_checksum.h i_main.h i_system.h i_sound.h \
+ i_video.h g_game.h hu_stuff.h wi_stuff.h st_stuff.h am_map.h p_setup.h \
+ r_draw.h r_main.h r_fps.h d_main.h d_deh.h lprintf.h
+
+/home/klange/Projects/toaruos/hdd/usr/include/unistd.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/unistd.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/newlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/features.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stat.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/time.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/time.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/fcntl.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/fcntl.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_default_fcntl.h:
+
+doomdef.h:
+
+../config.h:
+
+z_zone.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdio.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/alloca.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/assert.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/ctype.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h:
+
+m_swap.h:
+
+version.h:
+
+doomtype.h:
+
+doomstat.h:
+
+d_player.h:
+
+d_items.h:
+
+p_pspr.h:
+
+m_fixed.h:
+
+tables.h:
+
+info.h:
+
+d_think.h:
+
+p_mobj.h:
+
+doomdata.h:
+
+d_ticcmd.h:
+
+d_net.h:
+
+dstrings.h:
+
+d_englsh.h:
+
+sounds.h:
+
+w_wad.h:
+
+s_sound.h:
+
+v_video.h:
+
+r_data.h:
+
+r_defs.h:
+
+r_state.h:
+
+r_patch.h:
+
+f_finale.h:
+
+d_event.h:
+
+f_wipe.h:
+
+m_argv.h:
+
+m_misc.h:
+
+m_menu.h:
+
+p_checksum.h:
+
+i_main.h:
+
+i_system.h:
+
+i_sound.h:
+
+i_video.h:
+
+g_game.h:
+
+hu_stuff.h:
+
+wi_stuff.h:
+
+st_stuff.h:
+
+am_map.h:
+
+p_setup.h:
+
+r_draw.h:
+
+r_main.h:
+
+r_fps.h:
+
+d_main.h:
+
+d_deh.h:
+
+lprintf.h:

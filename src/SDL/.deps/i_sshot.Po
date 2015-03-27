@@ -1,0 +1,229 @@
+i_sshot.o: i_sshot.c ../../config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/newlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/features.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/alloca.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_main.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_stdinc.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_platform.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdio.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/strings.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/inttypes.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdint.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/ctype.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/begin_code.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/close_code.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_audio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_error.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_endian.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_mutex.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_thread.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_rwops.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_cdrom.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_cpuinfo.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_events.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_active.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_keyboard.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_keysym.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_mouse.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_video.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_joystick.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_quit.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_loadso.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_timer.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_version.h \
+ ../../src/doomstat.h ../../src/d_player.h ../../src/d_items.h \
+ ../../src/doomdef.h ../../src/z_zone.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/assert.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h \
+ ../../src/m_swap.h ../../src/version.h ../../src/p_pspr.h \
+ ../../src/m_fixed.h ../../src/doomtype.h ../../src/tables.h \
+ ../../src/info.h ../../src/d_think.h ../../src/p_mobj.h \
+ ../../src/doomdata.h ../../src/d_ticcmd.h ../../src/doomdef.h \
+ ../../src/doomtype.h ../../src/v_video.h ../../src/r_data.h \
+ ../../src/r_defs.h ../../src/r_state.h ../../src/r_patch.h \
+ ../../src/i_video.h ../../src/v_video.h ../../src/z_zone.h \
+ ../../src/lprintf.h
+
+../../config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/newlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/features.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/alloca.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_main.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_stdinc.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_platform.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdio.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/strings.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/inttypes.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdint.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/ctype.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/begin_code.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/close_code.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_audio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_error.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_endian.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_mutex.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_thread.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_rwops.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_cdrom.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_cpuinfo.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_events.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_active.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_keyboard.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_keysym.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_mouse.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_video.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_joystick.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_quit.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_loadso.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_timer.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/SDL/SDL_version.h:
+
+../../src/doomstat.h:
+
+../../src/d_player.h:
+
+../../src/d_items.h:
+
+../../src/doomdef.h:
+
+../../src/z_zone.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/assert.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h:
+
+../../src/m_swap.h:
+
+../../src/version.h:
+
+../../src/p_pspr.h:
+
+../../src/m_fixed.h:
+
+../../src/doomtype.h:
+
+../../src/tables.h:
+
+../../src/info.h:
+
+../../src/d_think.h:
+
+../../src/p_mobj.h:
+
+../../src/doomdata.h:
+
+../../src/d_ticcmd.h:
+
+../../src/doomdef.h:
+
+../../src/doomtype.h:
+
+../../src/v_video.h:
+
+../../src/r_data.h:
+
+../../src/r_defs.h:
+
+../../src/r_state.h:
+
+../../src/r_patch.h:
+
+../../src/i_video.h:
+
+../../src/v_video.h:
+
+../../src/z_zone.h:
+
+../../src/lprintf.h:

@@ -1,0 +1,116 @@
+i_system.o: i_system.c \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/newlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/features.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/alloca.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/unistd.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/unistd.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/time.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/ctype.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/signal.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/signal.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/signal_defs.h \
+ ../../src/doomtype.h ../../config.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h \
+ ../../src/m_fixed.h ../../src/doomtype.h ../../src/i_system.h \
+ ../../src/doomdef.h ../../src/z_zone.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/assert.h \
+ ../../src/m_swap.h ../../src/version.h
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/newlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/features.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/alloca.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/unistd.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/unistd.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/time.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/ctype.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/signal.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/signal.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/signal_defs.h:
+
+../../src/doomtype.h:
+
+../../config.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h:
+
+../../src/m_fixed.h:
+
+../../src/doomtype.h:
+
+../../src/i_system.h:
+
+../../src/doomdef.h:
+
+../../src/z_zone.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/assert.h:
+
+../../src/m_swap.h:
+
+../../src/version.h:

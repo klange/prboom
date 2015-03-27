@@ -1,0 +1,156 @@
+d_client.o: d_client.c ../config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/newlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/config.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/features.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/types.h doomtype.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h \
+ doomstat.h d_player.h d_items.h doomdef.h z_zone.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/_ansi.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/alloca.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/sys/string.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/assert.h \
+ /home/klange/Projects/toaruos/hdd/usr/include/ctype.h m_swap.h version.h \
+ p_pspr.h m_fixed.h tables.h info.h d_think.h p_mobj.h doomdata.h \
+ d_ticcmd.h d_net.h d_main.h d_event.h w_wad.h g_game.h m_menu.h \
+ p_checksum.h protocol.h i_network.h i_system.h i_main.h i_video.h \
+ v_video.h r_data.h r_defs.h r_state.h r_patch.h m_argv.h r_fps.h \
+ lprintf.h
+
+../config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/newlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/config.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/ieeefp.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/features.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/_default_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/_types.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/lock.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stddef.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/types.h:
+
+doomtype.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h:
+
+doomstat.h:
+
+d_player.h:
+
+d_items.h:
+
+doomdef.h:
+
+z_zone.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/_ansi.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include/stdarg.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/reent.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/stdio.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/machine/stdlib.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/alloca.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/sys/string.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/assert.h:
+
+/home/klange/Projects/toaruos/hdd/usr/include/ctype.h:
+
+m_swap.h:
+
+version.h:
+
+p_pspr.h:
+
+m_fixed.h:
+
+tables.h:
+
+info.h:
+
+d_think.h:
+
+p_mobj.h:
+
+doomdata.h:
+
+d_ticcmd.h:
+
+d_net.h:
+
+d_main.h:
+
+d_event.h:
+
+w_wad.h:
+
+g_game.h:
+
+m_menu.h:
+
+p_checksum.h:
+
+protocol.h:
+
+i_network.h:
+
+i_system.h:
+
+i_main.h:
+
+i_video.h:
+
+v_video.h:
+
+r_data.h:
+
+r_defs.h:
+
+r_state.h:
+
+r_patch.h:
+
+m_argv.h:
+
+r_fps.h:
+
+lprintf.h:

@@ -1,0 +1,11 @@
+r_filter.o: r_filter.c doomtype.h ../config.h \
+ /home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h \
+ r_filter.h
+
+doomtype.h:
+
+../config.h:
+
+/home/klange/Projects/toaruos/toolchain/local/lib/gcc/i686-pc-toaru/4.6.4/include-fixed/limits.h:
+
+r_filter.h:
