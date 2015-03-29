@@ -1,0 +1,11 @@
+ICONS/Makefile
+Makefile
+VisualC6/Makefile
+VisualC8/Makefile
+config.status
+data/Makefile
+doc/Makefile
+src/MAC/Makefile
+src/Makefile
+src/POSIX/Makefile
+src/SDL/Makefile
