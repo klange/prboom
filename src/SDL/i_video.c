@@ -200,11 +200,19 @@ static void I_GetEvent(SDL_Event *Event)
 
   case SDL_MOUSEMOTION:
   if (mouse_currently_grabbed) {
+    if (Event->motion.x == SCREENWIDTH/2  && Event->motion.y == SCREENHEIGHT/2) break;
     event.type = ev_mouse;
     event.data1 = I_SDLtoDoomMouseState(Event->motion.state);
     event.data2 = Event->motion.xrel << 5;
     event.data3 = -Event->motion.yrel << 5;
     D_PostEvent(&event);
+    if ( (Event->motion.x < ((SCREENWIDTH/2)-(SCREENWIDTH/4))) ||
+        (Event->motion.x > ((SCREENWIDTH/2)+(SCREENWIDTH/4))) ||
+        (Event->motion.y < ((SCREENHEIGHT/2)-(SCREENHEIGHT/4))) ||
+        (Event->motion.y > ((SCREENHEIGHT/2)+(SCREENHEIGHT/4))) ) {
+      SDL_WarpMouse(SCREENWIDTH/2, SCREENHEIGHT/2);
+    }
+
   }
   break;
 
