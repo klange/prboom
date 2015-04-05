@@ -9,3 +9,10 @@ src/MAC/Makefile
 src/Makefile
 src/POSIX/Makefile
 src/SDL/Makefile
+src/.deps
+src/SDL/.deps
+src/POSIX/.deps
+*.a
+src/prboom
+src/prboom-game-server
+autom4te.cache
