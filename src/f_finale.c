@@ -230,7 +230,7 @@ void F_Ticker(void)
     {
       float speed = demo_compatibility ? TEXTSPEED : Get_TextSpeed();
       /* killough 2/28/98: changed to allow acceleration */
-      if (finalecount > strlen(finaletext)*speed +
+      if (finalecount > 100*speed +
           (midstage ? NEWTEXTWAIT : TEXTWAIT) ||
           (midstage && acceleratestage)) {
         if (gamemode != commercial)       // Doom 1 / Ultimate Doom episode end
