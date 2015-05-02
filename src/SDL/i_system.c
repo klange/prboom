@@ -73,6 +73,9 @@
 #include <sys/stat.h>
 #include <errno.h>
 
+#include <sys/time.h>
+#include <syscall.h>
+
 #ifndef PRBOOM_SERVER
 #include "m_argv.h"
 #endif
@@ -100,11 +103,10 @@ static unsigned int displaytime;
 static boolean InDisplay = false;
 
 int getticks(void) {
-  int secs, usecs;
-  FILE * u = fopen("/proc/uptime", "r");
-  fscanf(u, "%d.%2d", &secs, &usecs);
-  fclose(u);
-  return secs * 1000 + usecs * 10;
+  struct timeval tv;
+  gettimeofday(&tv, NULL);
+
+  return tv.tv_sec * 1000 + tv.tv_usec / 1000;
 }
 
 boolean I_StartDisplay(void)
